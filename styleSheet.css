@@ -2,6 +2,9 @@
     background-color: #2d1a1a;
     color: white;
 }
+#header .row {
+    margin :0px;
+}
 /* ---------------------------TOP NAVBAR START--------------------------------- */
 #div_2 .navbar {
     padding: 0%;
