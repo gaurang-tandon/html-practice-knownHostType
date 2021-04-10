@@ -43,9 +43,8 @@
     color: white;
 }
 #div_3 img {
-    height: 20rem;
-    width: 85rem;
-
+    height: 25vw;
+    width: 100vw;
 }
 #div_3 .centered {
     position: absolute;
@@ -62,15 +61,57 @@
 #div_3 h1 {
     font-size:3vw;
     color: teal;
-    border: 5px solid black;
+    font-weight: 1000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #div_3 p {
     font-size:1.2vw;
 }
 /* -------------------------JUMBOTRON END------------------------------ */
+
+/* -------------------------DIV-4 START------------------------------ */
 #div_4{
     background-color: white;
 }
+#div_4 h1 {
+    margin-left :5%;
+    margin-right :5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    white-space: nowrap;
+    color: #da8505;
+    font-weight: 1000;
+    font-family: cursive;
+    font-size: 3vw;
+}
+#div_4 .row p {
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 1.2vw;
+}
+.card {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.card-body {
+    height: 20rem;
+}
+.card-title {
+    height: 20%;
+}
+.card-text {
+    height: 60%;
+    white-space: wrap;
+    overflow: hidden;
+}
+#div-4-hiding {
+    border: 2px solid black;
+    margin: 1.5vw;
+}
+
+/* -------------------------DIV-4 END------------------------------ */
 #div_5{
     background-color: peachpuff;
 }
