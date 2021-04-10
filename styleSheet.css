@@ -1,0 +1,108 @@
+body {
+    width: 99% !important;
+}
+#header{
+    background-color: #2d1a1a;
+    color: white;
+}
+/* ---------------------------TOP NAVBAR START--------------------------------- */
+#div_2 .navbar {
+    padding: 0%;
+}
+#div_2 .dropdown-menu {
+    padding: 5px;
+}
+#div_2 .dropdown-item {
+    color: white;
+}
+#div_2 .dropdown-item:hover {
+    color: #d6c2b5;
+    background-color: #6d3c1c;
+}
+#div_2 .nav-link:hover{
+    color: rgb(61, 46, 46);
+}
+#div_2 .nav-item:hover{
+    background-color: darkgrey;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{
+        display: block;
+    }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; background-color: #553838 ;border: 10px solid #2d1a1a ;border-radius: 0%; }
+}
+/* ---------------------------TOP NAVBAR END---------------------------- */
+
+
+/* -------------------------JUMBOTRON START------------------------------ */
+#div_3 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#div_3 img {
+    height: 20rem;
+    width: 85rem;
+
+}
+#div_3 .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#div_3 .center-bottom {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, 50%);
+}
+#div_3 h1 {
+    font-size:3vw;
+    color: teal;
+    border: 5px solid black;
+}
+#div_3 p {
+    font-size:1.2vw;
+}
+/* -------------------------JUMBOTRON END------------------------------ */
+#div_4{
+    background-color: white;
+}
+#div_5{
+    background-color: peachpuff;
+}
+#div_6{
+    background-color: maroon;
+}
+#div_7{
+    background-color: white;
+}
+#div_8{
+    background-color: grey;
+}
+#div_9{
+    background-color: goldenrod;
+}
+#div_10{
+    background-color: lightgray;
+}
+#div_11{
+    background-color: white;
+}
+#div_12{
+    background-color: lightgray;
+}
+#div_13{
+    background-color: whitesmoke;
+}
+#div_14{
+    background-color: whitesmoke;
+}
+#div_15.container {
+    background-image: url("img/slider_3.jpg");
+}#footer{
+    background-color: brown;
+}
