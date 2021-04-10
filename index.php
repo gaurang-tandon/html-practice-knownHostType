@@ -21,7 +21,7 @@
 <!----------------------------- TOP NAVBAR START --------------------------------->
 
     <div id="div_2" class="conatiner-fluid bg-light">
-        <div class="d-flex justify-content-center container">
+        <div class="d-flex justify-content-around container">
         
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
